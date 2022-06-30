@@ -1,0 +1,367 @@
+[
+  {
+    "description": "  As a user I want to Validate The Automation Practice Home Page",
+    "elements": [
+      {
+        "description": "",
+        "id": "validating-automation-practice-home-page;validating-automation-practice-home-page-fields",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Validating Automation Practice Home Page Fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I Navigate To The Automation Practice Home Page",
+            "match": {
+              "location": "step-definitions\\automationPracticeHomepageValidations.js:20"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 33507000000,
+              "error_message": "page.waitForSelector: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#email\" to be visible\n============================================================\n    at HomePage.clickElement (C:\\Automation\\Playwright\\playwright-cucumberBDD\\page-objects\\base-page.js:17:20)\n    at HomePage.enterInputValue (C:\\Automation\\Playwright\\playwright-cucumberBDD\\page-objects\\base-page.js:32:20)\n    at World.<anonymous> (C:\\Automation\\Playwright\\playwright-cucumberBDD\\step-definitions\\automationPracticeHomepageValidations.js:30:20)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I Should See The \"Sign out\" Element On Home Page",
+            "match": {
+              "location": "step-definitions\\automationPracticeHomepageValidations.js:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I Should See The \"My account\" Element On Home Page",
+            "match": {
+              "location": "step-definitions\\automationPracticeHomepageValidations.js:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I Should See The Search Input Element",
+            "match": {
+              "location": "step-definitions\\automationPracticeHomepageValidations.js:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I Should See The Back To Home Button",
+            "match": {
+              "location": "step-definitions\\automationPracticeHomepageValidations.js:58"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2847000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validating-automation-practice-home-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validating Automation Practice Home Page",
+    "tags": [],
+    "uri": "features\\automationPracticeHomepageValidations.feature"
+  },
+  {
+    "description": "  As a user I want to Launch The Automation Practice Application",
+    "elements": [
+      {
+        "description": "",
+        "id": "launching-automation-practice-application;launch-and-validate-automation-practice-landing-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Launch And Validate Automation Practice Landing Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I Navigate To The Automation Practice Page",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I Should See The \"Contact us\" Element On Landing Page",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I Should See The \"Sign in\" Element On Landing Page",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Shopping Cart Element Should Be Present",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "launching-automation-practice-application;validate-automation-practice-login-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Validate Automation Practice Login Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I Navigate To The Automation Practice Page",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I Click On The Sign In Element",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1705000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I Should See The Create Account Section",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I Should See The Already Registered Section",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 324000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "launching-automation-practice-application;login-to-automation-practice-application",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Login To Automation Practice Application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I Am On The Automation Practice Login Page",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I Enter My Email Address",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I Enter My Password",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I Click On The Sign Button",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I Should Navigate To The Automation Practice Home Page",
+            "match": {
+              "location": "step-definitions\\launchAutomationPracticeApplication.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3020000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 444000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "launching-automation-practice-application",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Launching Automation Practice Application",
+    "tags": [],
+    "uri": "features\\launchAutomationPracticeApplication.feature"
+  }
+]
